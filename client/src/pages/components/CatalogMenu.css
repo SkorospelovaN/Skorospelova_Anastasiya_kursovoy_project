@@ -1,0 +1,39 @@
+.catalog-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 7vw;
+}
+
+.catalog-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+    margin-top: 90px;
+    list-style: none;
+    padding: 0;
+}
+
+.catalog-menu-title{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 700;
+    margin: 0px 0px 50px 0px;
+}
+
+.link {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .link:active {
+    color: #CD323C;
+    font-size: 32px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  

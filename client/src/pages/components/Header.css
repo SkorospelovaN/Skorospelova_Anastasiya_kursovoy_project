@@ -1,0 +1,52 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 25px 0px 0px 0px;
+}
+
+.header>div{
+    display: flex;
+    gap: 63px;
+}
+
+.header>div>a{
+    text-decoration: none;
+}
+
+.menu{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.menu:hover{
+    color: #CD323C;
+}
+
+.menu-active{
+    cursor: pointer;
+    color: #CD323C;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.header>button{
+    background: none;
+    border-radius: 25px;
+    border: 2px solid #FFF;
+    box-shadow: 0px 0px 7px 4px rgba(205, 50, 60, 0.35);
+    padding: 13px 40px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.header>button:hover{
+    background: #CD323C;
+    border: 2px solid #CD323C;
+    color: #FFF;
+
+}

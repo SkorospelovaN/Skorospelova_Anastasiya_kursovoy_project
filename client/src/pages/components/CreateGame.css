@@ -1,0 +1,42 @@
+.add-game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 49px 39px;
+    gap: 29px;
+    border-radius: 35px;
+    border: 2px solid #CD323C;
+    background: #FFF;
+    width: 40%;
+    align-self: center;
+}
+
+.add-game>h1{
+    color: #CD323C;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 39px;
+}
+
+.add-game>input, .add-game>select{
+    border-radius: 35px;
+    border: 2px solid #CD323C;
+    background: #FFF;
+    color: #CD323C;
+    font-size: 28px;
+    font-weight: 400;
+    padding: 31px 0px 31px 31px;
+}
+
+.add-game>button{
+    border-radius: 35px;
+    border: none;
+    background: #CD323C;
+    box-shadow: 0px 0px 7px 4px rgba(205, 50, 60, 0.35);
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 400;
+    padding: 32px 76px;
+    width: fit-content;
+    align-self: center;
+}

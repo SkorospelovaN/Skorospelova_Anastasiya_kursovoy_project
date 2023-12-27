@@ -1,0 +1,37 @@
+.footer-container{
+    background: #292929;
+}
+
+.footer{
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+}
+
+.footer>a{
+    align-self: center;
+}
+
+.footer-in{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 32px 0px;
+}
+
+.footer-in>h1{
+    color: #CD323C;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0px 0px 20px 0px;
+    margin: 0;
+}
+
+.footer-in>p, .footer-in>a{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
