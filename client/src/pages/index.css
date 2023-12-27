@@ -1,0 +1,43 @@
+@font-face{
+  font-family: Comfortaa;
+  src: url('./font/Comfortaa.ttf');
+}
+
+body{
+  background: #292929;
+  font-family: Comfortaa;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+button{
+  font-family: Comfortaa;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+#root{
+  width: 100%;
+}
+
+#root-2{
+  width: 100%;
+  background: linear-gradient(0deg, rgba(41, 41, 41, 0.90) 0%, rgba(41, 41, 41, 0.90) 100%), url("./assets/bg.svg"), lightgray -108px -32.289px / 111.25% 100.872% no-repeat;
+  background-size: cover;
+}
+
+#around {
+  margin: 0px 250px;
+}
+
+img{
+  pointer-events: none;
+}
+
+a, p, h1{
+  margin: 0;
+  padding: 0;
+}

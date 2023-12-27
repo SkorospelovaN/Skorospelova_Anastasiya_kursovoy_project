@@ -1,0 +1,45 @@
+.admin{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0px 60px 0px;
+}
+
+.users{
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    border-radius: 35px;
+    border: 2px solid #CD323C;
+    background: #FFF;
+    padding: 29px;
+    margin: 98px 0px;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.user>h1{
+    color: #CD323C;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 39px;
+}
+
+.user>div{
+    display: flex;
+    gap: 23px;
+}
+
+.user>div>p{
+    border-radius: 35px;
+    border: 2px solid #CD323C;
+    padding: 22px 0px 22px 21px;
+    color: #CD323C;
+    font-size: 28x;
+    font-weight: 400;
+    width: 100%;
+}
+

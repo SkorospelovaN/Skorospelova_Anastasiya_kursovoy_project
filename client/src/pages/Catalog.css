@@ -1,0 +1,14 @@
+.catalog-page{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(460px, 1fr));
+    grid-gap: 69px 20px;
+    margin-top: 211px;
+    padding-bottom: 60px;
+}
+
+.catalog-position{
+    height: 300px;
+    border-radius: 35px;
+    border: 3px solid #CD323C;
+    background: #FFF;
+}

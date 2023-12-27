@@ -1,0 +1,41 @@
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 140px;
+    margin: 200px 0px 284px 0px;
+}
+
+.profile-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 29px;
+    border-radius: 35px;
+    border: 2px solid #CD323C;
+    background: #FFF;
+    padding: 29px 36px;
+    width: 100%;
+}
+
+.profile>svg{
+    border-radius: 35px;
+    border: 2px solid #CD323C;
+    padding: 62px;
+}
+
+.profile-info>h1{
+    color: #CD323C;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 59px;
+}
+
+.profile-info>p{
+    border-radius: 35px;
+    border: 2px solid #CD323C;
+    color: #CD323C;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 29px 0px 29px 31px;
+    width: -webkit-fill-available;
+}
